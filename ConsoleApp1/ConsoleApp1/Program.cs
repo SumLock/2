@@ -52,7 +52,7 @@ namespace ConsoleApp1
                 for (int i = 0; i < Count; i++)
                 {
                     //隨機挑選一個數字放入R
-                    int R = rand.Next(1, member.Count);
+                    int R = rand.Next(0, member.Count);
 
                     //嘗試印出number[R],如果有錯誤就離開迴圈
                     try
